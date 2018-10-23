@@ -1,0 +1,27 @@
+:root {
+  --theme-color: #00304E;
+}
+/*
+  Colors
+*/
+header {
+  background-color: #00304E; 
+  color: white;
+}
+main {
+  color: #00304E;
+}
+main > .section:nth-child(2n + 1) {
+  background-color: #00304E;
+  color: white;
+}
+main > .section:nth-child(2n) {
+  background-color: white;
+  color: #00304E;
+}
+main > .section:nth-child(2n + 1) a {
+  color: white;
+}
+main > .section:nth-child(2n) a {
+  color: #00304E;
+}

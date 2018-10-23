@@ -1,0 +1,24 @@
+/*
+  Colors
+*/
+header {
+  background-color: #333; 
+  color: white;
+}
+main {
+  color: #333;
+}
+main > .section:nth-child(2n + 1) {
+  background-color: #333;
+  color: white;
+}
+main > .section:nth-child(2n) {
+  background-color: white;
+  color: #333;
+}
+main > .section:nth-child(2n + 1) a {
+  color: white;
+}
+main > .section:nth-child(2n) a {
+  color: #333;
+}
