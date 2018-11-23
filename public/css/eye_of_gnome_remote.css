@@ -2,23 +2,23 @@
   Colors
 */
 header {
-  background-color: #00304E; 
+  background-color: #11240C; 
   color: white;
 }
 main {
-  color: #00304E;
+  color: #11240C;
 }
 main > .section:nth-child(2n + 1) {
-  background-color: #00304E;
+  background-color: #11240C;
   color: white;
 }
 main > .section:nth-child(2n) {
   background-color: white;
-  color: #00304E;
+  color: #11240C;
 }
 main > .section:nth-child(2n + 1) a {
   color: white;
 }
 main > .section:nth-child(2n) a {
-  color: #00304E;
+  color: #11240C;
 }

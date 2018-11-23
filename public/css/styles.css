@@ -35,7 +35,6 @@ nav img {
   height: 30px;
 }
 
-
 /*
  Main area
 */
@@ -59,14 +58,14 @@ p {
   font-size: 1.3em;
 }
 
-
 .grid {
   display: grid;
-  grid-gap: 2rem;
+  grid-gap: 5rem;
   grid-template-columns: 1fr 2fr;
 }
 @media (max-width: 480px) {
   .grid {
-      grid-template-columns: 1fr;
+    grid-gap: 5rem;
+    grid-template-columns: 1fr;
   }
 }
