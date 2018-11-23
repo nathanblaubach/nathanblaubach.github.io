@@ -65,7 +65,7 @@ p {
 }
 @media (max-width: 480px) {
   .grid {
-    grid-gap: 5rem;
+    grid-gap: 1rem;
     grid-template-columns: 1fr;
   }
 }
