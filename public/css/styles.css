@@ -43,14 +43,24 @@ main img {
   width: 100%;
 }
 .section-title {
-  height: 100vh;
-  font-size: 7vh;
   text-align: center;
 }
-.section-title img {
+.section-title-half {
+  height: 50vh;
+}
+.section-title-half > div {
+  padding-top: 15vh; 
+  font-size: 10vh;
+}
+.section-title-full {
+  height: 100vh;
+  font-size: 7vh;
+}
+.section-title-full img {
   margin-top: 5vh;
   height: 60vh;
 }
+
 .section-body {
   padding: 2rem;
 }
