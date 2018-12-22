@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/blaubachn
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://blaubachn.gitlab.io
+  * I am blaubachn (https://keybase.io/blaubachn) on keybase.
+  * I have a public key ASChrUBdofwsv3eo8gE7A8HZtx3Ep36HMHyyH7WsEjhJgQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120d2d0e76c3a39932e3cdba8a57734da8c4b541a53414d9d66a586b9ca1dcdf72a0a",
+      "host": "keybase.io",
+      "kid": "0120a1ad405da1fc2cbf77a8f2013b03c1d9b71dc4a77e87307cb21fb5ac123849810a",
+      "uid": "89e007e26c4ad6c3666ba41286fc9c19",
+      "username": "blaubachn"
+    },
+    "merkle_root": {
+      "ctime": 1545494032,
+      "hash": "cbcf89353f48ec06faab82d8bc1a117d14b9330effa0a58728302af1f24ee94c8b3174a7a4053820516682ab2620897b33e23934e998d7e142c16926963dcb6b",
+      "hash_meta": "c7fcf5a42ea43c49672ac93b21c5b9ef80652f9fba7bbed85b31231f9ddcc7cb",
+      "seqno": 4184970
+    },
+    "service": {
+      "entropy": "re5frvEtj3rWOWfRiP8vb9Yt",
+      "hostname": "blaubachn.gitlab.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.13.0"
+  },
+  "ctime": 1545494047,
+  "expire_in": 504576000,
+  "prev": "3958136948696084705d68f22739c131c7f877d5e7a17c26eb64a699559df99e",
+  "seqno": 29,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgoa1AXaH8LL93qPIBOwPB2bcdxKd+hzB8sh+1rBI4SYEKp3BheWxvYWTESpcCHcQgOVgTaUhpYIRwXWjyJznBMcf4d9XnoXwm62SmmVWd+Z7EIIMeJX+bphHz0o4Q45kncwdD/KwpzyVSnw64gtnVjeaZAgHCo3NpZ8RAhtacPB8GVxtLIRne0+QkZl1ZPXGkB/9YxnjeuscE2Jp8qlVr+C9qlIgpYIDHfnpDI8i1NZtpn9KsLApG3759AahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIDN8oyikVZye+QkUFsOFnhJBGVUkKANFv0PYgxs24XKdo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/blaubachn
+
+==================================================================
