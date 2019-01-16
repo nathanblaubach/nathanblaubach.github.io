@@ -50,7 +50,7 @@ main img {
 }
 .section-title-half > div {
   margin-top: 5rem;
-  padding-top: 15vh; 
+  padding-top: 10vh; 
   font-size: 10vh;
 }
 .section-title-full {
@@ -59,7 +59,6 @@ main img {
   font-size: 7vh;
 }
 .section-title-full img {
-  margin-top: 5vh;
   height: 60vh;
 }
 
