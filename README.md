@@ -1,3 +1,4 @@
-# blaubachn.gitlab.io
+# Personal Website
 
-Personal Website
+* https://blaubachn.com
+* https://blaubachn.gitlab.io
