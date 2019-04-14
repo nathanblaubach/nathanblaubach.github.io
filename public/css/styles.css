@@ -56,8 +56,11 @@ main img {
   width: 100%;
 }
 
-.section-body {
-  padding: 2rem;
+.section {
+  padding: 1rem;
+}
+.section-header p {
+  font-size: 2rem;
 }
 .section-body p {
   font-size: 1.3rem;
