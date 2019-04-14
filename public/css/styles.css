@@ -68,7 +68,7 @@ main img {
 
 .grid {
   display: grid;
-  grid-gap: 5rem;
+  grid-gap: 1rem 2rem;
   grid-template-columns: 1fr 2fr;
 }
 @media (max-width: 480px) {
