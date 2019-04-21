@@ -1,14 +1,14 @@
 .section-title, .section-header {
-  background-color: #1a5a4a;
+  background-color: #333;
   color: white;
 }
 .section-body {
   background-color: white;
-  color: #1a5a4a;
+  color: #333;
 }
 header {
-  background-color: #1a5a4a;
+  background-color: #333;
 }
 main a, footer a {
-  color: #1a5a4a;
+  color: #333;
 }

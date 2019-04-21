@@ -1,24 +1,15 @@
-/*
-  Colors
-*/
-header {
-  background-color: #00304E; 
-  color: white;
-}
-main {
-  color: #00304E;
-}
-main > .section:nth-child(2n + 1) {
+.section-title, .section-header {
   background-color: #00304E;
   color: white;
 }
-main > .section:nth-child(2n) {
+.section-body {
   background-color: white;
   color: #00304E;
 }
-main > .section:nth-child(2n + 1) a {
-  color: white;
+header {
+  background-color: #00304E;
 }
-main > .section:nth-child(2n) a {
+main a, footer a {
   color: #00304E;
 }
+

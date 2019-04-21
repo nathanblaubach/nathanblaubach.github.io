@@ -4,48 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>McClain Family Cookbook</title>
-
-    <link href="../css/cookbook.css" rel="stylesheet" type="text/css" />
     <link href="../css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="../css/cookbook.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
 
     <header>
       <div class="content">
         <nav>
-          <a href="https://gitlab.com/blaubachn/cookbook">
-            <img src="../images/gitlab.svg" alt="GitLab" />
-          </a>
-          <a href="../index.html">
-            <img src="../images/logo.svg" alt="My Site" />
-          </a>
+          <a href="#about">About</a>
+          <a href="#development">Development</a>
+          <a href="https://gitlab.com/blaubachn/cookbook">Code</a>
+          <a href="https://mcclaincookbook.firebaseapp.com">App</a>
         </nav>
       </div>
     </header>
 
     <main>
-      <div class="section section-title section-title-full">
+    
+      <div class="section-title">
         <div class="content">
           <img src="../images/cookbook-logo.svg" />
           <p>The McClain Family Cookbook</p>
         </div>
       </div>
-      <div class="section section-body" id="about">
+      
+      <div class="section-header" id="about">
         <div class="content">
           <h1>About</h1>
-          <p>This cookbook is a digitized version of the McClain Family Recipes book that was created in 2006. The hope is that this will make the cookbook more accessible and allow us to easily add new recipes as time goes on.</p>
-          <p>If you run into any issues or have any ideas that you think would make the cookbook better, please send me an email at <a href="mailto:nathanblaubach@tutamail.com">nathanblaubach@tutamail.com</a></p>
-          <p>The cookbook is currently located <a href="https://mcclaincookbook.firebaseapp.com/">here</a>.</p>
         </div>
       </div>
-      <div class="section section-body">
+      
+      <div class="section-body" id="about">
+        <div class="content">
+          <p>
+            <a href="https://mcclaincookbook.firebaseapp.com/">This cookbook</a>
+            is a digitized version of the McClain Family Recipes 
+            book that was created in 2006. The hope is that this will make the 
+            cookbook more accessible and allow us to easily add new recipes as 
+            time goes on.
+          </p>
+          <p>
+            If you run into any issues or have any ideas that you think would 
+            make the cookbook better, please send me an email.
+          </p>
+          <a href="mailto:nathanblaubach@tutamail.com">
+            nathanblaubach@tutamail.com
+          </a>
+        </div>
+      </div>
+      
+    </main>
+    
+    <footer>
+    
+      <div class="section-header" id="development">
         <div class="content">
           <h1>Development</h1>
-          <p>This app was created using <a href="https://reactjs.org/">React.js</a>, <a href="https://github.com/facebook/create-react-app">create-react-app</a> and <a href="https://github.com/ReactTraining/react-router">react-router</a>.</p>
-          <p>All code written and maintained by <a href="../index.html">Nathan Blaubach</a> and is available <a href="https://gitlab.com/blaubachn/cookbook">here</a> under the <a href="https://gitlab.com/blaubachn/cookbook/blob/master/LICENSE">MIT</a> License.</p>
-          <p>The logo was designed by Jeremy Slagle</p>
         </div>
       </div>
-    </main>
+      
+      <div class="section-body">
+        <div class="content">
+        
+          <p>
+            This app uses
+            <a href="https://reactjs.org/">React.js</a>, 
+            <a href="https://github.com/facebook/create-react-app">create-react-app</a> and
+            <a href="https://github.com/ReactTraining/react-router">react-router</a>.
+          <p>
+          
+          </p>
+            The
+            <a href="https://gitlab.com/blaubachn/cookbook">source code</a> was written by
+            <a href="../index.html">Nathan Blaubach</a>, and is licensed under the 
+            <a href="https://gitlab.com/blaubachn/cookbook/blob/master/LICENSE">MIT</a> License.
+          </p>
+
+          <p>
+            The Logo was designed by Jeremy Slagle.
+          </p>
+          
+        </div>
+      </div>
+      
+    </footer>
   </body>
 </html>

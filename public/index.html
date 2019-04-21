@@ -4,109 +4,150 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Nathan Blaubach</title>
-    <link href="css/homepage.css" rel="stylesheet" type="text/css" />
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
 
     <header>
       <div class="content">
         <nav>
-          <a href="https://gitlab.com/blaubachn">
-            <img src="images/gitlab.svg" alt="GitLab" />
-          </a>
-          <a href="https://codepen.io/blaubachn">
-            <img src="images/codepen.png" alt="Codepen" />
-          </a>
-          <a href="https://www.linkedin.com/in/blaubachn">
-            <img src="images/linkedin.png" alt="Linked In" />
-          </a>
+          <a href="#projects">Projects</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
         </nav>
       </div>
     </header>
 
     <main>
-      <div class="section section-title section-title-full">
+    
+      <div class="section-title">
         <div class="content">
           <img src="images/logo.svg" />
           <p>Nathan Blaubach</p>
         </div>
       </div>
+      
+      <div class="section-header" id="projects">
+        <div class="content">
+          <h1>Projects</h1>
+        </div>
+      </div>
+      
+      <div class="section-body">
+        <div class="content">
+          <div class="grid">
+          
+            <img src="images/cookbook-logo.svg" />
+            <div>
+              <h2>The McClain Family Cookbook</h2>
+              <p>
+                Yes, I am making the stereotypical "make your family cookbook 
+                into an app" project. This has really helped in learning the 
+                basics of React.js. It is still a work in progress, but it has 
+                been released. You can check it out 
+                <a href="./projects/cookbook.html">here</a>!
+              </p>
+            </div>
+            
+            <img src="images/transcriber-logo.svg" />
+            <div>
+              <h2>Transcriber</h2>
+              <p>
+                This project runs in the background and scans a folder every few
+                seconds. It will kick off a request for any new audio files to 
+                the IBM speech to text service. This is my first ever python 
+                project. You can check it out 
+                <a href="./projects/transcriber.html">here</a>!
+              </p>
+            </div>
+            
+            <img src="images/eye_of_gnome_remote-logo.svg" />
+            <div>
+              <h2>Eye of Gnome Remote</h2>
+              <p>
+                This project was made specifically for a computer to run a 
+                slideshow using Eye of Gnome or Eye of Mate without the need for
+                a mouse or keyboard. You can check it out 
+                <a href="./projects/eye_of_gnome_remote.html">here</a>!
+              </p>
+            </div>
+            
+          </div>
+        </div>
+      </div>
 
-      <div class="section section-body" id="about-me">
+      <div class="section-header" id="about">
+        <div class="content">
+          <h1>About Me</h1>
+        </div>
+      </div>
+
+      <div class="section-body">
         <div class="content">
           <div class="grid">
             <img src="images/profile-picture.jpg" />
-            <div>
-              <h1>About Me</h1>
-              <p>
-                I am a Software Engineer currently working in Platteville, WI. 
-                At work, I develop and test Avionics Software, but in my free time I like to do web and desktop development.
-                I am currently aiming to get involved in open source and am working on a few projects to learn languages that will help me do that.
-                If you are interested, you can check out my work on codepen and gitlab!
-              </p>
-            </div>
+            <p>
+              I am a Software Engineer currently working in Platteville, WI.
+              At work, I develop and test Avionics Software, but in my free time
+              I like to do web and desktop development. I am currently aiming to
+              get involved in open source and am working on a few projects to
+              learn languages that will help me do that. If you are interested,
+              you can check out my work on codepen and gitlab!
+            </p>
           </div>
         </div>
       </div>
-      <div class="section section-body">
-        <div class="content">
-          <div class="grid">
-            <img src="images/cookbook-logo.svg" />
-            <div>
-              <h1>The McClain Family Cookbook</h1>
-              <p>
-                Yes, I am making the stereotypical "make your family cookbook into an app" project.
-                This has really helped in learning the basics of React.js.
-                It is still a work in progress, but it has been released.
-                You can check it out <a href="./projects/cookbook.html">here</a>!
-              </p>
-            </div>
-            <img src="images/transcriber-logo.svg" />
-            <div>
-              <h1>Transcriber</h1>
-              <p>
-                This project runs in the background and scans a folder every few seconds.
-                It will kick off a request for any new audio files to the IBM speech to text service.
-                This is my first ever python project.
-                You can check it out <a href="./projects/transcriber.html">here</a>!
-              </p>
-            </div>
-            <img src="images/eye_of_gnome_remote-logo.svg" />
-            <div>
-              <h1>Eye of Gnome Remote</h1>
-              <p>
-                This project was made specifically for a computer to run a slideshow using Eye of Gnome or Eye of Mate without the need for a mouse or keyboard.
-                You can check it out <a href="./projects/eye_of_gnome_remote.html">here</a>!
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="section section-body" id="contact-me">
+
+    </main>
+    
+    <footer>
+    
+      <div class="section-header" id="contact">
         <div class="content">
           <h1>Contact Me</h1>
-          <div class="grid">
-          
-            <h4>Email</h4>
-            <a href="mailto:nathanblaubach@tutamail.com">nathanblaubach@tutamail.com</a>
+        </div>
+      </div>
+      
+      <div class="section-body">
+        <div class="content">
+          <div class="contact-links">
             
-            <h4>Keybase</h4>
-            <div>
-                <a href="https://keybase.io/nathanblaubach">nathanblaubach</a>
-                -
-                <a href="./keybase.txt">proof</a>
-            </div>
+            <h3>Email</h3>
+            <a href="mailto:nathanblaubach@tutamail.com">
+              nathanblaubach@tutamail.com
+            </a>
             
-            <h4>Matrix</h4>
-            <a href="https://matrix.to/#/@nathanblaubach:matrix.org">@nathanblaubach:matrix.org</a>
-            
-            <h4>Mastodon</h4>
-            <a rel="me" href="https://fosstodon.org/@blaubachn">@blaubachn@fosstodon.org</a>
-          
+            <h3>Social</h3>
+            <a href="https://gitlab.com/blaubachn">
+              <img src="images/gitlab.svg" alt="GitLab" />
+            </a>
+            <a href="https://github.com/blaubachn">
+              <img src="images/github.png" alt="GitHub" />
+            </a>
+            <a href="https://codepen.io/blaubachn">
+              <img src="images/codepen.png" alt="Codepen" />
+            </a>
+            <a href="https://www.linkedin.com/in/blaubachn">
+              <img src="images/linkedin.png" alt="Linked In" />
+            </a>
+            <a rel="me" href="https://fosstodon.org/@blaubachn">
+              <img src="images/mastodon.svg" alt="Mastodon" />
+            </a>
+              
+            <h3>Chat</h3>
+            <a href="https://keybase.io/nathanblaubach">
+              <img src="images/keybase.png" alt="Keybase" />
+            </a>
+            <a href="https://matrix.to/#/@nathanblaubach:matrix.org">
+              <img src="images/matrix.png" alt="Matrix" />
+            </a>
+              
           </div>
         </div>
       </div>
-    </main>    
+      
+    </footer>
+    
   </body>
 </html>
