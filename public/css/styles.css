@@ -16,7 +16,9 @@ header a {
 footer {
   min-height: 100vh;
 }
-
+.section-title-fill {
+  min-height: calc(100vh - 5rem);
+}
 .section-title {
   font-size: calc(1.7rem + 2vw);
   text-align: center;
