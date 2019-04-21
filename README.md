@@ -7,4 +7,4 @@
 
 ## License
 
-(MIT)[https://gitlab.com/blaubachn/blaubachn.gitlab.io/blob/master/LICENSE]
+[MIT](https://gitlab.com/blaubachn/blaubachn.gitlab.io/blob/master/LICENSE)
