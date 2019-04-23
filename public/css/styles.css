@@ -53,11 +53,13 @@ footer {
   }
   .grid {
     margin: 0;
-    
   }
 }
 
 @media (max-width: 480px) {
+  header {
+    padding: 1rem 0;
+  }
   .grid {
     grid-gap: 1rem;
     grid-template-columns: 1fr;
