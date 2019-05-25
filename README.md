@@ -3,8 +3,8 @@
 ## Domains
 
 * https://blaubachn.com
-* https://blaubachn.gitlab.io
+* https://blaubachn.github.io
 
 ## License
 
-[MIT](https://gitlab.com/blaubachn/blaubachn.gitlab.io/blob/master/LICENSE)
+[MIT](https://github.com/blaubachn/blaubachn.github.io/blob/master/LICENSE)
