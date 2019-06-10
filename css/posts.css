@@ -1,0 +1,13 @@
+.title-photo {
+  text-align: center;
+}
+.title-photo img {
+    max-width: 50%;
+    text-align: center;
+}
+@media (max-width: 480px) {
+  .title-photo img {
+      max-width: 100%;
+      margin: auto;
+  }
+}
