@@ -1,0 +1,11 @@
+.contacts {
+  text-align: center
+}
+.contacts img {
+  height: 2.5rem;
+}
+.contacts a, .contacts a:visited {
+  text-decoration: none;
+  margin: 0 .25rem;
+}
+

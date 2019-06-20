@@ -1,14 +1,39 @@
+/* Theming Light and Dark */
+
 html, a {
   background-color: white;
   color: #333333;
 }
-
-svg {
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
+.light-theme-only-inline {
+  display: inline;
 }
+.light-theme-only-block {
+  display: block;
+}
+.dark-theme-only-inline, .dark-theme-only-block {
+  display: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html, a {
+    background-color: #333333;
+    color: white;
+  }
+  .logo {
+    box-shadow: 0 0 5px white;
+  }
+  .light-theme-only-inline, .light-theme-only-block {
+    display: none;
+  }
+  .dark-theme-only-inline {
+    display: inline;
+  }
+  .dark-theme-only-block {
+    display: block;
+  }
+}
+
+/* Mobile Responsiveness */
 
 body {
   font-family: Helvetica, sans-serif;
@@ -17,29 +42,6 @@ body {
   max-width: 768px;
   margin: auto;
   padding: 1rem;
-}
-
-header {
-  display: grid;
-  grid-template-columns: 6rem 2fr;
-  margin: 2rem 0;
-}
-
-header h1 {
-  margin: auto 1rem;
-}
-
-footer {
-  margin-top: 10vh;
-  text-align: center;
-}
-
-h1 {
- margin: 3rem 0 1rem 0;
-}
-
-h2 {
- margin: 2rem 0 1rem 0;
 }
 
 .grid {
@@ -57,41 +59,30 @@ h2 {
   }
 }
 
-.contacts {
-  text-align: center
-}
-.contacts img {
-  height: 2.5rem;
-}
-.contacts a, .contacts a:visited {
-  text-decoration: none;
-  margin: 0 .25rem;
+/* Other Styles */
+
+svg {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
-.light-theme-only {
-  display: inline;
-}
-.dark-theme-only {
-  display: none;
-}
-@media (prefers-color-scheme: dark) {
-  html, a {
-    background-color: #333333;
-    color: white;
-  }
-  .logo {
-    box-shadow: 0 0 5px white;
-  }
-  .light-theme-only {
-    display: none;
-  }
-  .dark-theme-only {
-    display: inline;
-  }
+header {
+  display: grid;
+  grid-template-columns: 6rem 2fr;
+  margin: 2rem 0;
 }
 
+footer {
+  margin-top: 100px;
+  text-align: center;
+}
 
-
-
-
+h1 {
+ margin: 3rem 0 1rem 0;
+}
+header h1 {
+  margin: auto 1rem;
+}
 
