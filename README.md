@@ -2,8 +2,8 @@
 
 ## Domains
 
-* https://blaubachn.com
-* https://blaubachn.github.io
+* https://nathanblaubach.com
+* https://nathanblaubach.github.io
 
 ## License
 
