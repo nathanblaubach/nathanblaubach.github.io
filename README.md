@@ -1,9 +1,8 @@
 # Personal Website
 
-## Domains
+## Domain
 
-* https://nathanblaubach.com
-* https://nathanblaubach.github.io
+https://nathanblaubach.com
 
 ## License
 
