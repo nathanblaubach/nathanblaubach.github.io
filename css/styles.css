@@ -1,8 +1,11 @@
 /* Theming Light and Dark */
 
-html, a {
+html {
   background-color: white;
-  color: #333333;
+  color: #121212;
+}
+a {
+  color: #121212;
 }
 .light-theme-only-inline {
   display: inline;
@@ -15,8 +18,11 @@ html, a {
 }
 
 @media (prefers-color-scheme: dark) {
-  html, a {
-    background-color: #333333;
+  html {
+    background-color: #121212;
+    color: white;
+  }
+  a {
     color: white;
   }
   .light-theme-only-inline, .light-theme-only-block {
@@ -82,8 +88,6 @@ footer {
 }
 
 h1 {
- margin: 3rem 0 1rem 0;
+  margin: 3rem 0 1rem 0;
 }
-
-
 
