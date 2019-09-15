@@ -1,39 +1,36 @@
 /* Theming Light and Dark */
 
-html {
-  background-color: white;
-  color: #121212;
+:root {
+  --light-inline: inline;
+  --light-block:  block;
+  --dark-inline:  none;
+  --dark-block:   none;
+
+  --background-color: white;
+  --foreground-color: #121212;
 }
-a {
-  color: #121212;
+@media (prefers-color-scheme: light) {
+  :root {
+    --light-inline: none;
+    --light-block:  none;
+    --dark-inline:  inline;
+    --dark-block:   block;
+
+    --background-color: #121212;
+    --foreground-color: white;
+  }
 }
 .light-theme-only-inline {
-  display: inline;
+  display: var(--light-inline);
 }
 .light-theme-only-block {
-  display: block;
+  display: var(--light-block);
 }
-.dark-theme-only-inline, .dark-theme-only-block {
-  display: none;
+.dark-theme-only-inline {
+  display: var(--dark-inline);
 }
-
-@media (prefers-color-scheme: dark) {
-  html {
-    background-color: #121212;
-    color: white;
-  }
-  a {
-    color: white;
-  }
-  .light-theme-only-inline, .light-theme-only-block {
-    display: none;
-  }
-  .dark-theme-only-inline {
-    display: inline;
-  }
-  .dark-theme-only-block {
-    display: block;
-  }
+.dark-theme-only-block {
+  display: var(--dark-block);
 }
 
 /* Mobile Responsiveness */
@@ -63,30 +60,32 @@ body {
 
 /* Other Styles */
 
+html {
+  background-color: var(--background-color);
+  color: var(--foreground-color);
+}
+a {
+  color: var(--foreground-color);
+}
 body {
   font-family: Helvetica, sans-serif;
   font-size: 1.1rem;
 }
-
 header {
   display: grid;
   grid-template-columns: 6rem 2fr;
   margin: 2rem 0;
 }
-
 header img {
   border-radius: .5rem;
 }
-
 header h1 {
   margin: auto 1rem;
 }
-
 footer {
   margin-top: 100px;
   text-align: center;
 }
-
 h1 {
   margin: 3rem 0 1rem 0;
 }
