@@ -89,4 +89,6 @@ footer {
 h1 {
   margin: 3rem 0 1rem 0;
 }
-
+li {
+  margin: .5rem;
+}
