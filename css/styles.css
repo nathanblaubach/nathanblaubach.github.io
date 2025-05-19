@@ -1,36 +1,22 @@
 /* Theming Light and Dark */
 
 :root {
-  --light-inline: inline;
-  --light-block:  block;
-  --dark-inline:  none;
-  --dark-block:   none;
-
   --background-color: white;
   --foreground-color: #121212;
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --light-inline: none;
-    --light-block:  none;
-    --dark-inline:  inline;
-    --dark-block:   block;
-
     --background-color: #121212;
     --foreground-color: white;
   }
-}
-.light-theme-only-inline {
-  display: var(--light-inline);
-}
-.light-theme-only-block {
-  display: var(--light-block);
-}
-.dark-theme-only-inline {
-  display: var(--dark-inline);
-}
-.dark-theme-only-block {
-  display: var(--dark-block);
+  
+  .linkedin-logo {
+    content:url("../images/social/linkedin-white.png");
+  }
+
+  .github-logo {
+    content:url("../images/social/github-white.png");
+  }
 }
 
 /* Mobile Responsiveness */
